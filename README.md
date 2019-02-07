@@ -1,3 +1,3 @@
-#The Monkees#
-###Fronend Webdevelopment Milestone Project###
+#The Monkees
+###Frontend Webdevelopment Milestone Project###
 ***
