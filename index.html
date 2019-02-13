@@ -11,6 +11,8 @@
     
     <!--Bootstrap CDN-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <!--Fontawesome CDN-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -42,7 +44,7 @@
     
     <section>
         <div class="container-fluid bg-image">
-
+            <h1 class="monkees-header">The Monkees</h1>
                 <img src="images/monkees.jpg" id="image-monkees" alt="Monkees preforming" title="Monkees live">
 
             <!--Live Dates-->
@@ -54,31 +56,51 @@
                         <tr>
                             <td>02/02/2019</td>
                             <td>Paris</td>
-                            <td class="btn-find-ticket"><button class="btn btn-primary" type="submit">Find Ticket</button></td>
+                            <td class="btn-find-ticket">
+                                <a href="https://www.ticketmaster.com/" target="_blank">  
+                                    <button class="btn btn-primary" type="submit">Find Ticket</button>
+                                </a>
+                            </td>
                         </tr>
 
                         <tr>
                             <td>12/02/2019</td>
                             <td>London</td>
-                            <td><button class="btn btn-primary" type="submit">Find Ticket</button></td>
+                            <td>
+                                <a href="https://www.ticketmaster.com/" target="_blank">
+                                    <button class="btn btn-primary" type="submit">Find Ticket</button>
+                                </a>
+                            </td>
                         </tr>
 
                         <tr>
                             <td>31/02/2019</td>
                             <td>Liverpool</td>
-                            <td><button class="btn btn-primary" type="submit">Find Ticket</button></td>
+                            <td>
+                                <a href="https://www.ticketmaster.com/" target="_blank">
+                                    <button class="btn btn-primary" type="submit">Find Ticket</button>
+                                </a>
+                            </td>
                         </tr>
 
                         <tr>
                             <td>10/03/2019</td>
                             <td>Glasgow</td>
-                            <td><button class="btn btn-primary" type="submit">Find Ticket</button></td>
+                            <td>
+                                <a href="https://www.ticketmaster.com/" target="_blank">
+                                    <button class="btn btn-primary" type="submit">Find Ticket</button>
+                                </a>
+                            </td>
                         </tr>
 
                         <tr>
                             <td>25/03/2019</td>
                             <td>Belfast</td>
-                            <td><button class="btn btn-primary" type="submit">Find Ticket</button></td>
+                            <td>
+                                <a href="https://www.ticketmaster.com/" target="_blank">
+                                    <button class="btn btn-primary" type="submit">Find Ticket</button>
+                                </a>
+                            </td>
                         </tr>
                     </table>
                 </div>
@@ -94,37 +116,65 @@
     <section>
         <div class="container-fluid bg-white">
             <div class="container">
-            <div id="book-us">
-                <h1>Book Us</h1>
+                <div id="book-us">
+                    
+                    <h1>Book Us</h1>
 
-                <div class="col-xs-12 col-md-6 col-lg-6 bookus-text">
-                    
-                    <p>If you would like us to rock your wedding, Christmas party, work function or speical
-                    event then please fill out our contact form and we will be in touch.</p>
-                    
-                    
-                    <img class="cover-2" src="images/cover2.png" alt="The Monkees Logo">
-                    
-                </div>
+                    <div class="col-xs-12 col-md-6 col-lg-6 bookus-text">
 
-                <div class="col-xs-12 col-md-6 col-lg-6 bookus-form">
-                    <label for="name">Name<br>
-                    <input type="text" name="name" id="name" required="required" placeholder="Name"/></label>
-                    <br>
-                    <label for="email">Email<br>
-                    <input type="email" name="email" id="email" required="required" placeholder="Email" /></label>
-                    <br>
-                    <label for="telephone">Telephone Number<br>
-                    <input type="tel" name="telephone" id="telephone" required="required" placeholder="Telephone Number"/></label>
-                    <br>
-                    <label for="about">Tell us a bit about your speical event<br>
-                    <textarea rows="4" cols="30" id="about"></textarea>
-                    </label>
-                    <br>
-                    <button class="btn btn-primary" type="submit">Submit</button>
+                        <p>If you would like us to rock your wedding, Christmas party, work function or speical
+                        event then please fill out our contact form and we will be in touch.</p>
+
+                        <img class="cover-2" src="images/cover2.png" alt="The Monkees Logo">
+
+                    </div>
+
+                    <div class="col-xs-12 col-md-6 col-lg-6 bookus-form">
+                        <label for="name">Name<br>
+                        <input type="text" name="name" id="name" required="required" placeholder="Name"/></label>
+                        <br>
+                        <label for="email">Email<br>
+                        <input type="email" name="email" id="email" required="required" placeholder="Email" /></label>
+                        <br>
+                        <label for="telephone">Telephone Number<br>
+                        <input type="tel" name="telephone" id="telephone" required="required" placeholder="Telephone Number"/></label>
+                        <br>
+                        <label for="about">Tell us a bit about your speical event<br>
+                        <textarea rows="4" cols="30" id="about"></textarea>
+                        </label>
+                        <br>
+                        <button class="btn btn-primary" type="botton" data-toggle="modal" data-target="#myModal">Submit</button>
+                        
+                        <!--Modal-->
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+                                
+                                <!--Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h1 class="modal-title">Thank You!</h1>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p> Thank you for submitting our booking form. We will be in touch shortly to book your
+                                            special event.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>              
+                                    </div>
+                                </div>
+                                <!--./modal-content--> 
+                                
+                            </div>
+                            <!--./modal-dialog-->
+                        </div>
+                        <!--End of Modal-->
+                        
+                    </div>
+                    <!--./bookus-form-->
                 </div>
-            </div>
-            <!--#/book-us-->    
+                <!--#/book-us--> 
+                
             </div>
             <!--./container-->
         </div>
@@ -136,17 +186,17 @@
     <footer class="footer-container">
         
         <div class="copyright">
-            <a href="#">&copy;2019 Anthony Nicklin</a>
+            <a href="#" target="_blank">&copy;2019 Anthony Nicklin</a>
         </div>
         <div class="soical-links">
             
-            <a href="#">
+            <a href="#" target="_blank">
             <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="#">
+            <a href="#" target="_blank">
             <i class="fab fa-instagram"></i>
             </a>
-            <a href="#">
+            <a href="#" target="_blank">
             <i class="fab fa-twitter"></i>
             </a>
             

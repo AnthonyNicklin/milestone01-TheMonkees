@@ -12,6 +12,7 @@ body {
     background-color: #ffffff;
 }
 
+/* Red backgroud image. Free for commercial use from https://pixabay.com */
 .bg-image {
     background: url(../images/red-background.jpg) center / cover no-repeat;
     width: 100%;
@@ -35,9 +36,9 @@ body {
   display: inline;
   color: red;
   text-align: center;
-  padding: 15px;
   text-decoration: none;
   font-size: 26px;
+  padding-left: 15px;    
 }
 
 /* Hide the icon that should open and close the topnav on large screens */
@@ -57,6 +58,14 @@ body {
     color:#000000 !important;
 }
 
+/*---------------------------Monkees header*/
+
+.monkees-header {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15px;
+}
+
 /*---------------------------Images*/
 
 #image-monkees {
@@ -65,7 +74,21 @@ body {
     width: 80%;
     height: 40%;
     display: block;
-    margin: 80px auto;
+    margin: 20px auto 50px auto;
+    animation: reduce 3s ease-in;
+}
+
+/* Animation targeting #image-monkees to reduce in size */
+@keyframes reduce {
+    from {
+        width: 100%;
+        height: 60%;
+    }
+    
+    to {
+        widows: 80%;
+        height: 40%;
+    }
 }
 
 /*---------------------------Live dates*/
@@ -140,6 +163,131 @@ textarea {
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 }
 
+/*---------------------------Modal*/
+
+.modal-title {
+    text-align: center;
+}
+
+.modal-content p {
+    text-align: center;
+    font-size: 24px;
+}
+/*---------------------------Music*/
+
+#music {
+    color: #ffffff;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.album-content {
+    margin-top: 15px;
+}
+.album-covers-left {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #343F4B;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.album-audio-left {
+    margin-top: 10px;
+}
+
+.album-bio {
+    background-color: #ffffff;
+    color: #343F4B;
+    border: 2px solid #343F4B;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.album-covers-right {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #343F4B;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+.album-audio-right {
+    margin-top: 10px;
+    float: right;
+}
+
+/*---------------------------video*/
+
+#video {
+    color: #ffffff;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+}
+
+.video {
+    margin-left: 21%;
+    width: 60%;
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+
+/*---------------------------Meet the Band*/
+
+#meet {
+    color: #ffffff;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.band-content {
+    background-color: #ffffff;
+    color: #343F4B;
+    border: 2px solid #343F4B;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.band-content p {
+    padding: 5px;
+}
+
+.band-img {
+    float: right;
+    min-width: 200px;
+    min-height: 400px;
+    border: 2px solid #343F4B;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+.artist-img {
+    border: 2px solid #343F4B;
+    border-radius: 10px;
+}
+
+.artist-bio {
+    background-color: #ffffff;
+    color: #343F4B;
+    border: 2px solid #343F4B;
+    border-radius: 10px;
+    float: left;
+    padding: 5px;
+}
+
+.artist-bio p {
+    padding: 5px;
+}
+
+.artist-content {
+    margin: 2%;
+    padding: 5px;
+}
 /*---------------------------Footer*/
 
 .footer-container {
@@ -170,10 +318,9 @@ textarea {
 
 /* When the screen is less than 767 pixels wide and hide all links. Show the icon that should open and close the topnav (.icon) */
 @media screen and (max-width: 767px) {
-  .topnav a {
+  .topnav a:not(:first-child) {
     display: none;
     font-size: 16px;
-    padding: 5px;
   }
   .topnav a.icon {
     float: right;
@@ -210,7 +357,7 @@ textarea {
 
 /* When the screen is less than 991 pixels wide and hide all links. Show the icon that should open and close the topnav (.icon) */
 @media screen and (max-width: 991px) {
-  .topnav a {
+  .topnav a:not(:first-child) {
     display: none;
   }
   .topnav a.icon {
