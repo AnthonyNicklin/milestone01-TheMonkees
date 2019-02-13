@@ -86,7 +86,7 @@ body {
     }
     
     to {
-        widows: 80%;
+        width: 80%;
         height: 40%;
     }
 }
@@ -253,8 +253,8 @@ textarea {
     margin-top: 5%;
 }
 
-.band-content p {
-    padding: 5px;
+.band-content p, h4 {
+    padding: 7px;
 }
 
 .band-img {
@@ -281,7 +281,7 @@ textarea {
 }
 
 .artist-bio p {
-    padding: 5px;
+    padding: 7px;
 }
 
 .artist-content {
