@@ -30,6 +30,7 @@ body {
 #brand {
     max-height: 80px;
     max-width: 100px;
+    padding: 7px;
 }
 /* Add background color to the top navigation */
 .topnav {
