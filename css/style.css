@@ -32,13 +32,12 @@ body {
     max-width: 100px;
     padding: 7px;
 }
-/* Add background color to the top navigation */
+
 .topnav {
   overflow: hidden;
   background-color: #ffffff;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 15px;    
   text-transform: uppercase;
 }
 
@@ -48,7 +47,7 @@ body {
   color: red;
   text-align: center;
   text-decoration: none;
-  font-size: 26px;
+  font-size: 32px;
   padding-left: 50px; 
   padding-right: 30px;    
 }
@@ -329,14 +328,17 @@ textarea {
   .topnav a:not(:first-child) {
     display: none;  
   }
-    .topnav {
+  .topnav {
         text-align: left;
     }  
-    
+  .topnav a {
+        font-size: 48px;
+    }
   .topnav a.icon {
     float: right;
     display: block;
   }
+  
 /* Hide the The Monkees logo in the Nav bar when on medium screens */      
   .brand {
     display: none
