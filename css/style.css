@@ -186,7 +186,7 @@ textarea {
     text-align: center;
     font-size: 24px;
 }
-/*---------------------------Music*/
+/*---------------------------Audio Tracks*/
 
 #music {
     color: #ffffff;
@@ -239,6 +239,7 @@ textarea {
 
 .video {
     margin-left: 21%;
+    margin-top: -30px;
     width: 60%;
     padding-bottom: 15px;
 }
@@ -292,7 +293,7 @@ textarea {
 }
 
 .artist-content {
-    margin: 2%;
+    margin: 15px 15px 30px 15px;
     padding: 5px;
 }
 /*---------------------------Footer*/
@@ -323,7 +324,7 @@ textarea {
 
 /*---------------------------Media Queries*/
 
-/* When the screen is less than 991 pixels wide and hide all links. Show the icon that should open and close the topnav (.icon) */
+/* When the screen is less than 991 pixels wide hide all links expect the 'Home' link. Show burger icon that open and closes the topnav (.icon) */
 @media screen and (max-width: 991px) {
   .topnav a:not(:first-child) {
     display: none;  
