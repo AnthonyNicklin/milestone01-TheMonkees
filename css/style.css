@@ -34,35 +34,35 @@ body {
 }
 
 .topnav {
-  overflow: hidden;
-  background-color: #ffffff;
-  text-align: center;
-  margin-top: 20px;
-  text-transform: uppercase;
+    overflow: hidden;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  display: inline;
-  color: red;
-  text-align: center;
-  text-decoration: none;
-  font-size: 32px;
-  padding-left: 50px; 
-  padding-right: 30px;    
+    display: inline;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+    padding-left: 50px; 
+    padding-right: 30px;    
 }
 
 /* Hide the icon that should open and close the topnav on large screens */
 .topnav .icon {
-  display: none;
-  color: #E80509;
+    display: none;
+    color: #E80509;
 }
 
 /* Add a red background on topnav links on hover */
 .topnav a:hover {
-  color: #343F4B;
-  cursor: pointer;
-  text-decoration: underline;
+    color: #343F4B;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .topnav .icon:hover {
@@ -90,7 +90,7 @@ body {
     }
     
     to {
-        widows: 80%;
+        width: 80%;
         height: 40%;
     }
 }
@@ -239,6 +239,7 @@ textarea {
     width: 60%;
     padding-bottom: 15px;
 }
+
 
 /*---------------------------Meet the Band*/
 
