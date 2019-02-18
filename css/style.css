@@ -186,6 +186,11 @@ textarea {
     margin-top: 15px;
 }
 
+.custom-container {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
 .album-content {
     margin-top: 15px;
     margin-bottom: 30px;
@@ -392,20 +397,14 @@ td {
 /*---------------------------Audio Tracks*/
 
 .album-covers-left {
-    width: 400px;
-    height: 400px;
-    margin-left: 21%;
-    margin-top: 30px;
-    width: 60%;
-    padding-bottom: 15px;
+    margin-top:30px;
 }
 
 .album-audio-left {
-    margin-left: 21%;
+    margin-left: 30px;
     margin-top: 30px;
-    width: 60%;
+    width: 80%;
     padding-bottom: 15px;
-
 }
 
 .album-bio {
@@ -413,25 +412,20 @@ td {
     margin-right: 30px;
     margin-top: 30px;
     padding-bottom: 15px;
-    font-size: 32px
+    font-size: 26px;
 }
-    h4 {
-        font-size: 40px;
+ h4 {
+        font-size: 48px;
     }    
 
 .album-covers-right {
-    width: 400px;
-    height: 400px;
-    margin-right: 21%;
     margin-top: 30px;
-    width: 60%;
-    padding-bottom: 15px;
 }
 
 .album-audio-right {
-    margin-right: 21%;
+    margin-right: 30px;
     margin-top: 30px;
-    width: 60%;
+    width: 80%;
     padding-bottom: 15px;
 }
 
@@ -442,16 +436,19 @@ td {
 }
 
 .band-img {
-    min-width: 400px;
-    min-height: 400px;
+    width: 600px;
+    height: 600px;
+    margin-right: 7%;
 }
 
 .artist-img {
     width: 400px;
     height: 400px;
-    padding-bottom: 15px;
 }
 
+.artist-bio {
+    margin-top: 15px;
+}
 .artist-bio p {
     font-size: 32px;
 }
