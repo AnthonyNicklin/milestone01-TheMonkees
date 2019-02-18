@@ -70,14 +70,6 @@ body {
     text-decoration: none;
 }
 
-/*---------------------------Monkees header*/
-
-.monkees-header {
-    text-align: center;
-    color: #ffffff;
-    padding-top: 15px;
-}
-
 /*---------------------------Images*/
 
 #image-monkees {
@@ -321,10 +313,11 @@ textarea {
     text-decoration: none;
 }
 
-/*---------------------------Media Queries*/
+/*---------------------------------------------------------------------------------------Media Queries*/
 
 /* When the screen is less than 991 pixels wide hide all links expect the 'Home' link. Show burger icon that open and closes the topnav (.icon) */
 @media screen and (max-width: 991px) {
+/*---------------------------Navigation*/
   .topnav a:not(:first-child) {
     display: none;  
   }
@@ -334,12 +327,13 @@ textarea {
   .topnav a {
         font-size: 48px;
     }
+/* Display icon top right in Nav bar */    
   .topnav a.icon {
     float: right;
     display: block;
   }
   
-/* Hide the The Monkees logo in the Nav bar when on medium screens */      
+/* Hide the The Monkees logo in the Nav bar */      
   .brand {
     display: none
     }    
@@ -368,8 +362,110 @@ textarea {
     width: 100%;
     text-align: left;
   }
+
+/*---------------------------Live dates*/
+
+h1 {
+    font-size: 80px;
 }
 
+    #live-table{
+        margin: 15px;
+    }    
+    
+td {
+    font-size: 32px;
+}
 
+.btn {
+    font-size: 24px;
+}    
 
+/*---------------------------Book Us*/
+    .bookus-text {
+        font-size: 32px;
+    }   
+    
+    label {
+        font-size: 32px;
+    }
+/*---------------------------Audio Tracks*/
 
+.album-covers-left {
+    width: 400px;
+    height: 400px;
+    margin-left: 21%;
+    margin-top: 30px;
+    width: 60%;
+    padding-bottom: 15px;
+}
+
+.album-audio-left {
+    margin-left: 21%;
+    margin-top: 30px;
+    width: 60%;
+    padding-bottom: 15px;
+
+}
+
+.album-bio {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    font-size: 32px
+}
+    h4 {
+        font-size: 40px;
+    }    
+
+.album-covers-right {
+    width: 400px;
+    height: 400px;
+    margin-right: 21%;
+    margin-top: 30px;
+    width: 60%;
+    padding-bottom: 15px;
+}
+
+.album-audio-right {
+    margin-right: 21%;
+    margin-top: 30px;
+    width: 60%;
+    padding-bottom: 15px;
+}
+
+/*---------------------------Meet the Band*/
+
+.band-content {
+    font-size: 32px;
+}
+
+.band-img {
+    min-width: 400px;
+    min-height: 400px;
+}
+
+.artist-img {
+    width: 400px;
+    height: 400px;
+    padding-bottom: 15px;
+}
+
+.artist-bio p {
+    font-size: 32px;
+}
+
+/*---------------------------Footer*/
+.copyright a {
+    font-size: 20px;
+}
+
+.soical-links {
+    margin-left: 45%;
+}
+.soical-links a {
+    font-size: 32px;
+}
+    
+}
