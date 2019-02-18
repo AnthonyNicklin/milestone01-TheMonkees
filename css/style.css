@@ -283,6 +283,7 @@ textarea {
     border-radius: 10px;
     float: left;
     padding: 5px;
+    width: 90%;
 }
 
 .artist-bio p {
