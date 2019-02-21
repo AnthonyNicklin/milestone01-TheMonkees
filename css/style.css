@@ -43,13 +43,10 @@ body {
     font-size: 26px;
     padding-right: 50px;    
 }
-/* Hide the icon that should open and close the topnav on large screens */
 .topnav .icon {
     display: none;
-    color: #E80509;
 }
-
-/* Add a red background on topnav links on hover */
+/* Add a black background on topnav links on hover */
 .topnav a:hover {
     color: #343F4B;
     cursor: pointer;
@@ -300,7 +297,6 @@ textarea {
 .topnav a.icon {
     float: right;
     display: block;
-    color: #E80509;
  }
   
 /* Hide the The Monkees logo in the Nav bar */ 
