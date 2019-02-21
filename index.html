@@ -18,8 +18,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--GoogleFonts-->
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
-    <!--Custome CSS-->
+    <!--Custom CSS-->
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!--Custom JavaScript-->
+    <link href="/formValidation.js" type="text/javascript">
     
     <title>The Monkees | Rocking since the 60's!</title>
     
@@ -27,7 +29,7 @@
     
 <body>
     
-    <header class="container-fluid">
+    <header class="container wide-container">
         
     <!--Navbar-->
         
@@ -51,7 +53,7 @@
     
     <section>
         <div class="container-fluid bg-image">
-            
+            <div class="container wide-container">
             <img src="images/monkees.jpg" id="image-monkees" alt="Monkees preforming" title="Monkees live">
 
             <!--Live Dates-->
@@ -114,6 +116,8 @@
                 <!--#/live-table-->
             </div>
             <!--#/live-dates-->
+            </div>
+            <!--./container-->
         </div> 
         <!--./container-fluid-->
     </section>
@@ -122,7 +126,7 @@
     <!--Book Us-->
     <section>
         <div class="container-fluid bg-white">
-            <div class="container">
+            <div class="container wide-container">
                 <div id="book-us">
                     
                     <h1>Book Us</h1>
@@ -136,15 +140,16 @@
 
                     </div>
 
-                    <div class="col-xs-12 col-md-6 col-lg-6 bookus-form">
+                    <form class="col-xs-12 col-md-6 col-lg-6 bookus-form">
+                        
                         <label for="name">Name<br>
-                        <input type="text" name="name" id="name" required="required" /></label>
+                        <input type="text" name="name" id="name" class="form-control" required /></label>
                         <br>
                         <label for="email">Email<br>
-                        <input type="email" name="email" id="email" required="required" /></label>
+                        <input type="email" name="email" id="email" class="form-control" required /></label>
                         <br>
                         <label for="telephone">Telephone Number<br>
-                        <input type="tel" name="telephone" id="telephone" required="required" /></label>
+                        <input type="tel" name="telephone" id="telephone" class="form-control" required /></label>
                         <br>
                         <label for="about">Tell us a bit about your speical event<br>
                         <textarea rows="4" cols="30" id="about"></textarea>
@@ -152,36 +157,10 @@
                         <br>
                         <button class="btn btn-primary" type="submit" data-toggle="modal" data-target="#myModal">Submit</button>
                         
-                        <!--Modal-->
-                        <div class="modal fade" id="myModal" role="dialog">
-                            <div class="modal-dialog">
-                                
-                                <!--Modal content-->
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        <h1 class="modal-title">Thank You!</h1>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p> Thank you for submitting our booking form. We will be in touch shortly to book your
-                                            special event.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>              
-                                    </div>
-                                </div>
-                                <!--./modal-content--> 
-                                
-                            </div>
-                            <!--./modal-dialog-->
-                        </div>
-                        <!--End of Modal-->
-                        
-                    </div>
+                    </form>
                     <!--./bookus-form-->
                 </div>
                 <!--#/book-us--> 
-                
             </div>
             <!--./container-->
         </div>
@@ -191,23 +170,28 @@
     
     <!--Footer-->
     <footer class="footer-container">
-        
-        <div class="copyright">
-            <a href="https://github.com/AnthonyNicklin" target="_blank">&copy;2019 Anthony Nicklin</a>
-        </div>
-        <div class="soical-links">
+        <div class="container wide-container">
             
-            <a href="https://en-gb.facebook.com/TheMonkees/" target="_blank">
-            <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://www.instagram.com/themonkees/?hl=en" target="_blank">
-            <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://twitter.com/themonkees?lang=en" target="_blank">
-            <i class="fab fa-twitter"></i>
-            </a>
+            <div class="copyright">
+                <a href="https://github.com/AnthonyNicklin" target="_blank">&copy;2019 Anthony Nicklin</a>
+            </div>
+            
+            <div class="soical-links">
+                
+                <a href="https://en-gb.facebook.com/TheMonkees/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/themonkees/?hl=en" target="_blank">
+                <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/themonkees?lang=en" target="_blank">
+                <i class="fab fa-twitter"></i>
+                </a>
+                
+            </div>
             
         </div>
+        <!--./container-->
         
     </footer>
     <!--End of footer-->
@@ -222,6 +206,6 @@
           }
         }
     </script>
-    
+
 </body>    
 </html>
