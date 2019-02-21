@@ -45,6 +45,7 @@ body {
 }
 .topnav .icon {
     display: none;
+    color: #E80509;
 }
 /* Add a black background on topnav links on hover */
 .topnav a:hover {
@@ -53,7 +54,6 @@ body {
     text-decoration: underline;
 }
 .topnav .icon:hover {
-    color: #E80509;
     text-decoration: none;
 }
 /*---------------------------Images*/
