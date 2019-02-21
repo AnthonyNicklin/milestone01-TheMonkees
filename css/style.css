@@ -37,7 +37,7 @@ body {
 /* Style the links inside the navigation bar */
 .topnav a {
     display: inline;
-    color: red;
+    color: #E80509;
     text-align: center;
     text-decoration: none;
     font-size: 26px;
@@ -300,6 +300,7 @@ textarea {
 .topnav a.icon {
     float: right;
     display: block;
+    color: #E80509;
  }
   
 /* Hide the The Monkees logo in the Nav bar */ 
