@@ -5,34 +5,28 @@
 body {
     font-family: 'Luckiest Guy', cursive;
 }
-
 /*---------------------------Colors*/
 
 .bg-white {
     background-color: #ffffff;
 }
-
 /* Red backgroud image. Free for commercial use from https://pixabay.com */
 .bg-image {
     background: url(../images/red-background.jpg) center / cover no-repeat;
     width: 100%;
     height: 100%;
 }
-
 /*---------------------------Navigation*/
-
 /* The Monkees logo targeting its positioning */
 .brand {
     float: left;
 }
-
 /* The Monkees logo targeting the image itself */
 #brand {
     max-height: 80px;
     max-width: 100px;
     padding: 7px;
 }
-
 .topnav {
     overflow: hidden;
     background-color: #ffffff;
@@ -40,18 +34,15 @@ body {
     margin-top: 20px;
     text-transform: uppercase;
 }
-
 /* Style the links inside the navigation bar */
 .topnav a {
     display: inline;
     color: red;
     text-align: center;
     text-decoration: none;
-    font-size: 32px;
-    padding-left: 50px; 
-    padding-right: 30px;    
+    font-size: 26px;
+    padding-right: 50px;    
 }
-
 /* Hide the icon that should open and close the topnav on large screens */
 .topnav .icon {
     display: none;
@@ -64,12 +55,10 @@ body {
     cursor: pointer;
     text-decoration: underline;
 }
-
 .topnav .icon:hover {
     color: #E80509;
     text-decoration: none;
 }
-
 /*---------------------------Images*/
 
 #image-monkees {
@@ -81,8 +70,8 @@ body {
     margin: 50px auto 50px auto;
     animation: reduce 3s ease-in;
 }
-
 /* Animation targeting #image-monkees to reduce in size */
+
 @keyframes reduce {
     from {
         width: 100%;
@@ -94,7 +83,6 @@ body {
         height: 40%;
     }
 }
-
 /*---------------------------Live dates*/
 
 #live-dates {
@@ -102,27 +90,23 @@ body {
     font-family: 'Luckiest Guy', cursive;
     text-align: center;
 }
-
 #live-table {
     display: block;
-    margin: 5% 20% 10% 20%;
+    margin-top: 15px; 
+    margin-bottom: 30px;
 }
-
 table {
     width: 100%;
 }
-
 td {
     padding: 15px;
     border-bottom: 3px solid #ffffff;
     letter-spacing: 2px;
     font-size: 24px;
 }
-
 .btn-find-ticket {
     margin-bottom: 10px;
 }
-
 .cover-2 {
     margin: 50px
 }
@@ -133,7 +117,6 @@ td {
     text-align: center;
     margin: 60px ;
 }
-
 .bookus-text {
     text-align: center;
     display: block;
@@ -141,19 +124,16 @@ td {
     font-size: 24px
     
 }
-
 .bookus-form {
     text-align: left;
     display: block;
     margin-top: 20px;
     margin-bottom: 70px;
 }
-
 .bookus-form label input {
     display: inline-block;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 }
-
 label {
     display: inline-block;
     max-width: 100%;
@@ -161,18 +141,15 @@ label {
     font-weight: 700;
     font-size: 24px;
 }
-
 textarea {
     display: inline-block;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 }
-
 /*---------------------------Modal*/
 
 .modal-title {
     text-align: center;
 }
-
 .modal-content p {
     text-align: center;
     font-size: 24px;
@@ -185,15 +162,11 @@ textarea {
     text-align: center;
     margin-top: 15px;
 }
-
-.custom-container {
-    margin-right: 30px;
-    margin-left: 30px;
-}
-
 .album-content {
     margin-top: 15px;
     margin-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .album-covers-left {
     width: 250px;
@@ -203,11 +176,9 @@ textarea {
     margin-left: 20px;
     margin-right: 20px;
 }
-
 .album-audio-left {
     margin: 10px;
 }
-
 .album-bio {
     background-color: #ffffff;
     color: #343F4B;
@@ -215,7 +186,6 @@ textarea {
     border-radius: 10px;
     padding: 7px;
 }
-
 .album-covers-right {
     width: 250px;
     height: 250px;
@@ -225,12 +195,10 @@ textarea {
     margin-right: 20px;
     float: right;
 }
-
 .album-audio-right {
     margin: 10px;
     float: right;
 }
-
 /*---------------------------video*/
 
 .video {
@@ -239,8 +207,6 @@ textarea {
     width: 60%;
     padding-bottom: 15px;
 }
-
-
 /*---------------------------Meet the Band*/
 
 .meet {
@@ -249,7 +215,6 @@ textarea {
     text-align: center;
     margin-top: 50px;
 }
-
 .band-content {
     background-color: #ffffff;
     color: #343F4B;
@@ -257,11 +222,9 @@ textarea {
     border-radius: 10px;
     margin-top: 5%;
 }
-
 .band-content p, h4 {
     padding: 7px;
 }
-
 .band-img {
     float: right;
     min-width: 200px;
@@ -270,12 +233,10 @@ textarea {
     border-radius: 10px;
     margin-top: 10%;
 }
-
 .artist-img {
     border: 2px solid #343F4B;
     border-radius: 10px;
 }
-
 .artist-bio {
     background-color: #ffffff;
     color: #343F4B;
@@ -285,11 +246,9 @@ textarea {
     padding: 5px;
     width: 90%;
 }
-
 .artist-bio p {
     padding: 5px;
 }
-
 .artist-content {
     margin: 15px 15px 30px 15px;
     padding: 5px;
@@ -301,14 +260,12 @@ textarea {
     width: 100%;
     padding: 15px;
 }
-
 .copyright a {
     font-size: 10px;
     color: #ffffff;
     float: left;
     padding-top: 10px;
 }
-
 .soical-links {
     margin-left: 48%;
 }
@@ -324,93 +281,97 @@ textarea {
 
 /* When the screen is less than 991 pixels wide hide all links expect the 'Home' link. Show burger icon that open and closes the topnav (.icon) */
 @media screen and (max-width: 991px) {
+/*---------------------------General*/
+.wide-container {
+    width: 900px !important;
+}    
 /*---------------------------Navigation*/
-  .topnav a:not(:first-child) {
+
+.topnav a:not(:first-child) {
     display: none;  
-  }
-  .topnav {
-        text-align: left;
-    }  
-  .topnav a {
-        font-size: 48px;
-    }
+}
+.topnav {
+    text-align: left;
+}  
+.topnav a {
+    font-size: 48px;
+}
 /* Display icon top right in Nav bar */    
-  .topnav a.icon {
+.topnav a.icon {
     float: right;
     display: block;
-  }
+ }
   
-/* Hide the The Monkees logo in the Nav bar */      
-  .brand {
+/* Hide the The Monkees logo in the Nav bar */ 
+.brand {
     display: none
-    }    
-    
-  .topnav.responsive {
-      position: relative;
-    }
-  .topnav.responsive .icon {
+}    
+.topnav.responsive {
+    position: relative;
+}
+.topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
-  }
-  .topnav.responsive a {
+ }
+.topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
-  }
+}
   .topnav.responsive {
-      float: none;
-    }
-  .topnav.responsive {
-      position: relative;
-    }
-  .topnav.responsive {
+    float: none;
+}
+.topnav.responsive {
+    position: relative;
+}
+.topnav.responsive {
     display: block;
     width: 100%;
     text-align: left;
-  }
-
+}
 /*---------------------------Live dates*/
 
 h1 {
     font-size: 80px;
 }
 
-    #live-table{
-        margin: 15px;
-    }    
-    
+#live-table{
+    margin: 15px;
+}    
+   
 td {
     font-size: 32px;
 }
-
 .btn {
     font-size: 24px;
 }    
-
 /*---------------------------Book Us*/
-    .bookus-text {
-        font-size: 32px;
-    }   
+
+.bookus-text {
+    font-size: 32px;
+}   
     
-    label {
-        font-size: 32px;
-    }
+label {
+    font-size: 32px;
+}
 /*---------------------------Audio Tracks*/
 
+.video {
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 80%;
+}
 .album-covers-left {
     margin-top:30px;
 }
 
 .album-audio-left {
-    margin-left: 30px;
     margin-top: 30px;
-    width: 80%;
+    width: 95%;
     padding-bottom: 15px;
 }
-
 .album-bio {
-    margin-left: 30px;
     margin-right: 30px;
     margin-top: 30px;
     padding-bottom: 15px;
@@ -418,48 +379,41 @@ td {
 }
  h4 {
         font-size: 48px;
-    }    
-
+}    
 .album-covers-right {
     margin-top: 30px;
 }
-
 .album-audio-right {
     margin-right: 30px;
     margin-top: 30px;
-    width: 80%;
+    width: 95%;
     padding-bottom: 15px;
 }
-
 /*---------------------------Meet the Band*/
 
 .band-content {
     font-size: 32px;
 }
-
 .band-img {
     width: 600px;
     height: 600px;
-    margin-right: 7%;
+    margin-right: 150px;
 }
-
 .artist-img {
     width: 400px;
     height: 400px;
 }
-
 .artist-bio {
     margin-top: 15px;
 }
 .artist-bio p {
     font-size: 32px;
 }
-
 /*---------------------------Footer*/
+
 .copyright a {
     font-size: 20px;
 }
-
 .soical-links {
     margin-left: 45%;
 }
