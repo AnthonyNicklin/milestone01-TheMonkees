@@ -30,7 +30,7 @@ h1, h2, h3, h4, p {
 }
 .topnav {
     text-align: left;
-    margin: 5px 0px;
+    margin: 15px 0px;
 }  
 /* Style the nav links */
 .topnav a {
@@ -65,8 +65,8 @@ h1, h2, h3, h4, p {
 #image-monkees {
     border: 2px solid rgba(118, 81, 104, 0.52);
     border-radius: 110px;
-    width: 80%;
-    height: 40%;
+    width: 90%;
+    height: 50%;
     display: block;
     margin: 50px auto 50px auto;
     animation: reduce 3s ease-in;
@@ -80,14 +80,16 @@ h1, h2, h3, h4, p {
     }
     
     to {
-        width: 80%;
-        height: 40%;
+        width: 90%;
+        height: 90%;
     }
 }
 
 /*---------------------------Live dates*/
 #live-dates {
     text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
 #live-table{
     display: block;
@@ -98,13 +100,13 @@ table {
     width: 100%;
 }   
 td {
-    font-size: 12px;
+    font-size: 18px;
     border-bottom: 3px solid #ffffff;
     letter-spacing: 1px;
 }
 /* Button style for Find Tickets and also Submit in book-us section */
 .btn {
-    font-size: 10px;
+    font-size: 18px;
     border-radius: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -114,13 +116,13 @@ td {
 #book-us {
     color: #343F4B;
     text-align: center;
-    margin: 60px ;
+    margin: 60px;
 }
 .bookus-text {
     text-align: center;
     display: block;
     margin: 20px auto;
-    font-size: 16px  
+    font-size: 18px  
 }
 .cover-2 {
     width: 10em;
@@ -128,6 +130,7 @@ td {
 .bookus-form {
     text-align: left;
     display: block;
+    margin-bottom: 80px;
 }
 /* Targets the submit button in the bookus-form */
 .btn-submit {
@@ -170,6 +173,9 @@ td {
     padding: 7px;
     max-width: 650px;
 }
+.album-bio p {
+    font-size: 18px;
+}
 
 /*---------------------------Meet the Band*/
 .meet-headers {
@@ -178,6 +184,9 @@ td {
 }
 .band-content p, h4 {
     padding: 7px;
+}
+.band-content p {
+    font-size: 18px;
 }
 .band-img {
     width: 330px;
@@ -200,6 +209,7 @@ td {
 }
 .artist-bio p {
     padding: 5px;
+    font-size: 18px;
 }
 .artist-content {
     display: block;
