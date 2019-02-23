@@ -67,3 +67,79 @@ Below are list of the programming lanuagues, technologies and frameworks used fo
 * Safari
 
 ## Testing ##
+
+I conducted testing across different platforms and web browsers in order to make sure the website works correctly and
+looks great across each one. 
+
+Platforms:
+* Samsung Galaxy 8
+    * Google Chrome
+    * Firefox
+    * Samsung web browser
+* iPad Mini
+    * Google Ghrome
+    * Firefox
+    * Safari
+* MacBook Pro
+    * Google Chrome
+    * Firefox
+    * Safari
+* Ubuntu 18.0
+    * Google Chrome
+    * Firefox
+* Windows 10
+    * Google Chrome
+    * Firefox
+    * Mircosoft Edge
+    * IE 11
+
+Manual testing was conducted to ensure the user story objectives where achieved
+1. Audio
+    i. Click on "Media" page
+    ii. Click on audio control bar to hear and contorl music
+2. Book tickets
+    i. Scroll down and use navigation link to "Live Dates" section
+    ii. Click on "Find Ticket" in order to book ticket for that event
+3. View promotional footage
+    i. Click on "Media" page
+    ii. Click on video contorl bar to view and contorl footage
+4. Book the band
+    i. Scroll down and use navigation link to "Book Us" section
+    ii. Try to submit the empty form and verify that an error message about the required fields appears
+    iii.Try to submit the form with an invalid email address and verify that a relevant error message appears
+    iv. Try to submit the form with an invalid telephone number and verify that a relevant error message appears
+    iiv. Try to submit the form with all inputs valid and verify that a success message appears
+5. Social Media links
+    i. In the footer of each page click on each soical media icon to be redirected to the respected site
+
+Across the different browsers the video and audio contorls are different as these are rendered differently across each browser.
+
+
+## Depolyment ##
+
+The website was created using Cloud9 IDE using Ubuntu with BASH. Git was used for version control and pushed to a repository hosted on 
+GitHub.com. 
+
+The website is delopyed using GitHub pages [The Monkees](https://anthonynicklin.github.io/milestone01-TheMonkees/)
+
+## Credits ##
+
+### Content ###
+Information about the band was taked from a number of sources listed below:
+* [Wikipedia](https://en.wikipedia.org/wiki/The_Monkees)
+* [The Monkees](https://www.monkees.com/)
+* [Biography - The Monkees](https://www.biography.com/people/groups/the-monkees)
+
+### Images ###
+Main background image uses was sourced under free commercia license [Pixaby](https://pixabay.com/en/red-abstract-spiral-2829985/)
+Images of band, Monkees logo and artists where provided by Code Institude.
+
+### Media ###
+Audio and video was provided by Code Institude.
+
+### Code ###
+#### Collapsible responsive navigation bar ####
+Code copied and customised from [w3schools.com](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
+
+#### Modal ####
+Modal using the [Bootstrap framework](https://getbootstrap.com/) with code coped and amended from [w3schools.com](https://www.w3schools.com/bootstrap4/bootstrap_modal.asp)
