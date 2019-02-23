@@ -96,27 +96,27 @@ Platforms:
 
 Manual testing was conducted to ensure the user story objectives where achieved
 1. Audio
-    i. Click on "Media" page
-    ii. Click on audio control bar to hear and contorl music
+    * Click on "Media" page
+    * Click on audio control bar to hear and contorl music
 2. Book tickets
-    i. Scroll down and use navigation link to "Live Dates" section
-    ii. Click on "Find Ticket" in order to book ticket for that event
+    * Scroll down on home page and also use the navigation link to "Live Dates" section
+    * Click on "Find Ticket" in order to book ticket for that event. This opens up a new tab in browser and directs you to the booking page for that gig
 3. View promotional footage
-    i. Click on "Media" page
-    ii. Click on video contorl bar to view and contorl footage
+    * Click on "Media" page
+    * Click on video contorl bar to view and contorl footage
 4. Book the band
-    i. Scroll down and use navigation link to "Book Us" section
-    ii. Try to submit the empty form and verify that an error message about the required fields appears
-    iii.Try to submit the form with an invalid email address and verify that a relevant error message appears
-    iv. Try to submit the form with an invalid telephone number and verify that a relevant error message appears
-    iiv. Try to submit the form with all inputs valid and verify that a success message appears
+    * Scroll down and use navigation link to "Book Us" section
+    * Try to submit the empty form and verify that an error message about the required fields appears
+    * Try to submit the form with an invalid email address and verify that a relevant error message appears
+    * Try to submit the form with an invalid telephone number and verify that a relevant error message appears
+    * Try to submit the form with all inputs valid 
 5. Social Media links
-    i. In the footer of each page click on each soical media icon to be redirected to the respected site
+    * In the footer of each page click on each social media icon to be redirected to the respected site and open in a new tab in the browser
 
 I reached out to fellow students on Slack to view my website and test. A lead mentor writely pointed out a major problem with the responsive
-aspect of the website. Even tho the website looks correct on small devices when adjusting a web browser on a desktop below 400px there was huge
-overflow. This pointed out I had not applied the mobile first approach correclty. I research more mobile first and went back over notes and videos.
-To correct the fault I had to rewrite 60% of my style.css. 
+aspect of the website. Even tho the website looks correct on small devices, when adjusting a web browser on a desktop below 400px there was huge
+overflow. This pointed out I had not applied the mobile first approach correclty. I did more research on mobile first design and implementation and went 
+back over notes and videos. To correct the fault I had to rewrite 60% of my style.css. 
 
 
 ## Depolyment ##
@@ -144,5 +144,4 @@ Images of band, Monkees logo and artists where provided by Code Institude.
 Audio and video was provided by Code Institude.
 
 ### Code ###
-#### Collapsible responsive navigation bar ####
-Code copied and customised from [w3schools.com](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
+Collapsible responsive navigation bar Code copied and customised from [w3schools.com](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
