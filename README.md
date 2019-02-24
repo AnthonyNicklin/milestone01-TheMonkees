@@ -5,18 +5,14 @@
 ## Aim ##
 
 The aim of this project was to create and build a front-end only website that has 4-5 pages for the rock band [The Monkees](https://anthonynicklin.github.io/milestone01-TheMonkees/). 
-I was provided with material such as audio and a video clip which they wanted fans to be able to play on their website. Other assests they provided where photos of 
-the band, album covers and indivual band member photos. 
+I was provided with content to use which included a video and audio tracks which they wanted fans to be able to play on their website. Other assests they provided where photos of 
+the band, album covers and individual band member photos. 
 
 ## UX ##
 
-Starting with a mobile first desgin approach to this project I started creating wireframes for mobile and small screens. I then moved onto creating mockups 
-for medium and desktop/larger screens. The main desgin of the site is clean, simple but also funky. I kept to a simple color scheme in keeping with the main 
-background image that I choose to use. Having a clean cut desgin, I felt makes it easier for the fan to read and use the website.
-The navigation bar is responsive having break points for smaller and medium size screens. At these breaks points a burgar menu appears top right, and when 
-clicked brings a drop down menu with the navigation links. The 'Home' link is displayed in the navigation bar when the drop down menu is collapsed in order 
-bring the fan back to the home page with just one click without having to toggle the drop down menu. The layout of the media.html and meet-the-band.html have been 
-kept simular in order to give the website consistency. 
+Starting with a mobile first design approach to this project I started creating wireframes for mobile and small screens. I then moved onto creating mockups 
+for medium and larger screens. The design of the site is clean, simple but funky in keeping with the 60's style the band has. I kept to a simple color scheme 
+in keeping with the main background image that I chose to use. Having a clean cut desgin, I felt makes it easier for the fan to read and use the website.
 
 Below are user stories that were conducted in order to gain clear goals that needed to be achieved for this website.
 1. As a fan I wanted to listen to current and back catalogue tracks.
@@ -30,6 +26,26 @@ Below are user stories that were conducted in order to gain clear goals that nee
 8. As an event promoter I wanted to check out their soical media via links.
 9. As a fan I wanted links to their differnt soical media pages on different platforms.
 
+The navigation bar is responsive having break points for smaller, medium and large screens. At these breaks points a burgar menu appears top right, and when 
+clicked brings a drop down menu with the navigation links. The 'Home' link is displayed in the navigation bar when the drop down menu is collapsed in order 
+bring the fan back to the home page with just one click without having to toggle the drop down menu. 
+
+The [Home page](https://anthonynicklin.github.io/milestone01-TheMonkees/) has a great picture of the band performing and has been put as the first image the visitor sees
+when visiting the website in order to attract the fan to attend one of the bands gigs. Under this image goes striaght to the [Live Dates](https://milestone-project-01-anthonynicklin.c9users.io/index.html#live-dates)
+section so the fan can easily find a ticket using the Find Ticket buttons next to each upcoming live date. The [Book Us](https://milestone-project-01-anthonynicklin.c9users.io/index.html#book-us) section
+provides fans or promoters with a way to contact the band in order to book them with a neatly laid out and easy to use form.
+
+As soon as the visitor hits the [Media](https://milestone-project-01-anthonynicklin.c9users.io/media.html) page a promation video hits them with of the band playing. This is again 
+used to encourage the fan to see the band play live. Underneath is a neat section of album tracks with cover images with controls to play a track from each one. Content is provided
+next to each album to give the visitor a bit of intrest about that album the band is promoting. 
+
+[Meet the Band](https://milestone-project-01-anthonynicklin.c9users.io/meet-the-band.html) uses a simple layout so the fan can easly read information about the band and then about
+each individual member. 
+
+During the process of developying the site I found that the layout on the [Media](https://milestone-project-01-anthonynicklin.c9users.io/media.html) and [Meet the Band](https://milestone-project-01-anthonynicklin.c9users.io/meet-the-band.html) 
+pages did not look great across all devices. I decided to change the layout and reposition images and content but, still keeping the design theme consistent. These pages now look much 
+more appealing across all screens sizes and devices giving a better user experience than sicking with the orignal layout in the orignal wireframes.
+
 ## Features ##
 
 Features on this website are:
@@ -39,12 +55,12 @@ Features on this website are:
 * When hovering over any links the cursor changes from a pointer to a hand.
 * On every page in the footer there are links to the band's soical media pages to the respected soical media platforms.
 * For each [live date](https://anthonynicklin.github.io/milestone01-TheMonkees/#live-dates) there is a 'find ticket' button that takes them the respected page on ticketmaster.com.
-* The [booking form](https://anthonynicklin.github.io/milestone01-TheMonkees/#book-us) lets the fan input their information and a modal is dispalyed thanking them for their intrested when submitted.
+* The [booking form](https://anthonynicklin.github.io/milestone01-TheMonkees/#book-us) lets the fan input their information and gives an error message if the data is not in the correct format or missing.
 * Video and audio on the [media](https://anthonynicklin.github.io/milestone01-TheMonkees/media.html) page have contorls that the fan can use to fully control the video and audio.
 
 ## Technologies Used ##
 
-Below are list of the programming lanuagues, technologies and frameworks used for this website.
+Below are a list of the programming lanuagues, technologies and frameworks used for this website.
 
 * HTML5
 * CSS3
@@ -53,11 +69,11 @@ Below are list of the programming lanuagues, technologies and frameworks used fo
 * JavaScript
     * Used to create the responsive navigation bar.
 * [Bootstrap3.3.7 framework](https://getbootstrap.com/)
-    * The website uses boostrap framework for it's grid system, pagelayout, button styling, navigation bar and modal.
+    * The website uses boostrap framework for it's grid system, pagelayout, button styling and navigation bar.
 * [Cloud9IDE](https://aws.amazon.com/cloud9/)
     * Cloud9 was the IDE used to write the code for this website.
 * [MarvelApp](https://marvelapp.com)
-    * This was used to desgin and create the mockups for this project.
+    * This was used to design and create the mockups for this project.
 * [Google Fonts](https://fonts.google.com/)
 * GIT
 * [GITHUB](https://github.com)
@@ -70,7 +86,7 @@ Below are list of the programming lanuagues, technologies and frameworks used fo
 ## Testing ##
 
 I conducted testing across different platforms and web browsers in order to make sure the website works correctly and
-looks great across each one. I also asked friends and familys to test cross their own devices to give option and advise. 
+looks great across each one. I also asked friends and family to test across their own devices and to give me honest options.
 
 Platforms:
 * Samsung Galaxy 8
@@ -113,8 +129,8 @@ Manual testing was conducted to ensure the user story objectives where achieved
 5. Social Media links
     * In the footer of each page click on each social media icon to be redirected to the respected site and open in a new tab in the browser
 
-I reached out to fellow students on Slack to view my website and test. A lead mentor writely pointed out a major problem with the responsive
-aspect of the website. Even tho the website looks correct on small devices, when adjusting a web browser on a desktop below 400px there was huge
+I reached out to fellow students on Slack to view my website and test. A lead mentor found a major problem with the responsive
+aspect of the website. Even tho the website looked correct on small devices, when adjusting a web browser on a desktop below 400px there was huge
 overflow. This pointed out I had not applied the mobile first approach correclty. I did more research on mobile first design and implementation and went 
 back over notes and videos. To correct the fault I had to rewrite 60% of my style.css. 
 
@@ -134,14 +150,14 @@ Information about the band was taked from a number of sources listed below:
 * [The Monkees](https://www.monkees.com/)
 * [Biography - The Monkees](https://www.biography.com/people/groups/the-monkees)
 
-Please notes some content is make up as I did not want to write the same information that would come most other students would also be writing.
+Please note some content is made up as I did not want to write the same information that other students would come across and possibly write up.
 
 ### Images ###
-Main background image uses was sourced under free commercia license [Pixaby](https://pixabay.com/en/red-abstract-spiral-2829985/)
+Main background image used was sourced under free commercia license [Pixaby](https://pixabay.com/en/red-abstract-spiral-2829985/)
 Images of band, Monkees logo and artists where provided by Code Institude.
 
 ### Media ###
-Audio and video was provided by Code Institude.
+Audio tracks and video was provided by Code Institude.
 
 ### Code ###
 Collapsible responsive navigation bar Code copied and customised from [w3schools.com](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
