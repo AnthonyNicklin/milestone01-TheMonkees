@@ -9,10 +9,7 @@ h1, h2, h3, h4, p {
     letter-spacing: 1px;
 }
 
-/*---------------------------Colors*/
-.bg-white {
-    background-color: #ffffff;
-}
+/*---------------------------Background Image*/
 /* Red backgroud image. Free for commercial use from https://pixabay.com */
 .bg-image {
     background: url(../images/red-background.jpg) center / cover no-repeat;
@@ -21,45 +18,15 @@ h1, h2, h3, h4, p {
 }
 
 /*---------------------------Navigation*/
-/* Hide the The Monkees logo in the Nav bar */ 
-.brand {
-    display: none
+#brand {
+    height: 3em;
 }
-.topnav a:not(:first-child) {
-    display: none;  
-}
-.topnav {
-    text-align: left;
-    margin: 15px 0px;
-}  
-/* Style the nav links */
-.topnav a {
+.navbar a {
     font-size: 32px;
     color: #E80509;
-    text-decoration: none;
 }
-/* Display icon top right in Nav bar */    
-.topnav a.icon {
-    float: right;
-    display: block;
-}    
-.topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
- }
-.topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-    margin: 15px 0px;
-}
-.topnav.responsive {
-    position: relative;
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
+.navbar-light .navbar-nav .nav-link {
+    color: #E80509;
 }
 
 /*---------------------------Images*/
@@ -68,8 +35,7 @@ h1, h2, h3, h4, p {
     border-radius: 110px;
     width: 90%;
     height: 50%;
-    display: block;
-    margin: 50px auto 50px auto;
+    margin: 30px;
     animation: reduce 3s ease-in;
 }
 
@@ -88,254 +54,76 @@ h1, h2, h3, h4, p {
 
 /*---------------------------Live dates*/
 #live-dates {
-    text-align: center;
-    margin-bottom: 80px;
-    margin-top: 80px;
+    margin-top: 50px;
 }
-#live-table{
-    display: block;
+#live-table {
     margin-top: 15px; 
     margin-bottom: 30px;
-}    
-table {
-    width: 100%;
-}   
-td {
-    font-size: 18px;
+}       
+.table td {
     border-bottom: 3px solid #ffffff;
     letter-spacing: 1px;
+    color: #ffffff;
+    vertical-align: middle;
+    padding: 15px;
 }
 /* Button style for Find Tickets and also Submit in book-us section */
 .btn {
-    font-size: 18px;
-    border-radius: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    border-radius: 15px;   
 } 
-
 /*---------------------------Book Us*/
 #book-us {
     color: #343F4B;
-    text-align: center;
-    margin: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.bookus-text {
-    text-align: center;
-    display: block;
-    margin: 20px auto;
-    font-size: 18px  
+input {
+    box-shadow: 5px 5px;
 }
-.cover-2 {
-    width: 10em;
-}
-.bookus-form {
-    text-align: left;
-    display: block;
-    margin-bottom: 80px;
-}
-/* Targets the submit button in the bookus-form */
-.btn-submit {
-    margin-top: 0px;
+textarea {
+    box-shadow: 5px 5px;
+    color: #343F4B;
 }
 
 /*---------------------------Media*/
 .video {
-    display: block;
-    margin: 40px auto 0px auto;
-    width: 100%;
+    margin: 30px;
+    width: 80%;
+    height: 60%;
 }
 
-/*---------------------------Audio Track*/
+/*---------------------------Audio Tracks*/
 #music {
-    text-align: center;
-    margin-top: 30px;
+    display: block;
+    margin: 30px;
 }
-.album-content {
-    margin: 15px;
-    margin-bottom: 30px; 
+.album {
+    padding: 30px;
 }
 .album-covers {
-    width: 250px;
-    height: 250px;
-    border: 2px solid #343F4B;
-    border-radius: 10px;
-    display: block;
-    margin: auto;
-}
-.album-audio {
-    display: block;
-    margin: 10px auto;
-    width: 20em;
-    text-align: center;
-}
-.album-bio {
-    display: block;
-    margin: 10px auto;
-    padding: 7px;
-    max-width: 650px;
-}
-.album-bio p {
-    font-size: 18px;
+    width: 10em;
+    height: 10em;
+    margin: 15px;
 }
 
 /*---------------------------Meet the Band*/
-.meet-headers {
-    text-align: center;
-    margin-top: 30px;
-}
-.band-content p, h4 {
-    padding: 7px;
-}
-.band-content p {
-    font-size: 18px;
-}
 .band-img {
-    width: 330px;
-    height: 330px;
-    display: block;
-    margin: 0px auto 0px auto;
-    border: 2px solid #343F4B;
-    border-radius: 10px;
+    width: 40%;
+    height: 50%;
 }
-.artist-img {
-    border: 2px solid #343F4B;
-    border-radius: 10px;
-    width: 250px;
-    height: 250px;
-    display: block;
-    margin: 0px auto 0px auto;
-}
-.artist-bio {
-    padding: 5px;
-}
-.artist-bio p {
-    padding: 5px;
-    font-size: 18px;
-}
-.artist-content {
-    display: block;
-    padding: 5px;
-}
-
 /*---------------------------Footer*/
 .footer-container {
     background-color: #343F4B;
-    width: 100%;
     padding: 15px;
+    text-align: center;
+    display: block;
 }
 .copyright a {
-    font-size: 12px;
-    color: #ffffff;
-    float: left;
-    padding-top: 10px;
-}
-.soical-links {
-    float: right;
+    color: #ffffff; 
 }
 .soical-links a {
-    text-align: center;
     color: #ffffff;
     font-size: 20px;
-    padding: 35px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
     text-decoration: none;
-}
-
-/*---------------------------------------------------------------------------------------Media Queries*/
-@media (min-width: 767px) {                 /* Tablets */
-
-/*---------------------------Media*/    
-    .video {
-    width: 80%;
-    }
-    .album-audio {
-    width: 50%;
-    }
-
-/*---------------------------Meet the Band*/
-    .artist-bio {
-        margin: 0px auto 0px auto;
-    }
-}
-
-@media (min-width: 992px){                  /* Desktops */
-/*---------------------------Navigation*/
-    header.container {
-        width: 100%;
-    }
-    .brand {
-        display: block;    
-        float: left;
-    }
-    #brand {
-        max-height: 80px;
-        max-width: 100px;
-        padding: 7px;
-    }
-    .topnav a:not(:first-child) {
-        display: inline-block;  
-    }
-    .topnav {
-        overflow: hidden;
-        background-color: #ffffff;
-        text-align: center;
-        margin-top: 20px;
-        text-transform: uppercase;
-    }
-    .topnav a.icon {
-        display: none;
-    }
-    .topnav a {
-        display: inline;
-        color: #E80509;
-        text-align: center;
-        text-decoration: none;
-        font-size: 32px;
-        padding-right: 50px;    
-    }
-    .topnav a:hover {
-        color: #343F4B;
-        cursor: pointer;
-        text-decoration: underline;
-    }
-    
-/*---------------------------Live dates*/
-    td {
-        font-size: 24px;
-    }
-    .btn {
-        font-size: 20px;
-    }
-    
-/*---------------------------Book Us*/
-    .bookus-text {
-        font-size: 24px;
-    }
-    label {
-        font-size: 24px;
-    }
-    
-/*---------------------------Audio Track*/
-    .album-content {
-        margin: 40px 0px; 
-    }
-    .album-audio {
-        margin-top: 50px;
-        width: 30em;
-    }
-    .album-bio {
-        font-size: 20px;
-        text-align: center;
-    }
-    
-/*---------------------------Meet the Band*/
-    .band-content {
-        font-size: 20px;
-    }
-    .artist-bio {
-        font-size: 20px;
-    }
-/*---------------------------Footer*/
-    .soical-links {
-        margin-right: 44%;
-    }
 }
