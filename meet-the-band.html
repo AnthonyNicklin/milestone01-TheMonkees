@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <!--Bootstrap CDN-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Fontawesome CDN-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,50 +20,49 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     
     <title>The Monkees | Rocking since the 60's!</title>
-    
-</head>
-    
-<body>
-    
-    <header class="container">
-        
-    <!--Navbar-->
-        
-        <div class="brand">
-            <a href="index.html">
+</head>    
+     
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+              <a href="index.html">
                 <img id="brand" src="images/cover2.png" alt="The Monkees Logo">
-            </a>
-        </div> 
-        
-        <div class="topnav" id="myTopnav">   
-          <a href="index.html">Home</a>
-          <a href="index.html#live-dates">Live Dates</a>
-          <a href="index.html#book-us">Book Us</a>
-          <a href="media.html">Media</a>
-          <a href="meet-the-band.html">Meet the Band</a>
-          <a href="javascript:void(0);" style="font-size:32px;" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
-    
-    </header>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                <ul class="navbar-nav text-uppercase">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#live-dates">Live Dates</a>
+                  </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="index.html#book-us">Book Us</a>
+                  </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="media.html">Media</a>
+                  </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="meet-the-band2.html">Meet the Band<span class="sr-only">(current)</span></a>
+                  </li>
+                </ul>
+              </div>
+        </nav>
     <!--End of header and Navigation-->
-    
-    <div class="container-fluid bg-image">
+<body>
+    <div class="bg-image">
         <div class="container">
-            
-        <!--Meet the Band-->
-          <section>
+        <section>
             <div class="row">
-                <div class="meet-headers">
-                    <h1>Meet the Band</h1>
-                </div>
-                
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <img src="images/band.jpg" class="band-img" alt="The band" title="The Monkees">
-                </div>
-    
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="band-content">
-                        <h2 class="meet-headers">The Monkees</h2>
+            
+                    <h1 class="col-12 text-center mt-5">Meet the Band</h1>
+               
+                    <img src="images/band.jpg" class="band-img mx-auto" alt="The band" title="The Monkees">
+            
+                    <div class="mt-5">
+                        <h2 class="text-center">The Monkees</h2>
                         <p>We are an Amercian Rock and Pop band that has been playing since the 1960's. Having had
                         a string of number #1 hits around the world we have never been more in demand. Our band
                         started from humble beginings like most rock bands - in Davy Jones's Dad's garage. 
@@ -77,86 +76,69 @@
                         state side for a number gigs that could be coming to you!
                         </p>
                     </div>     
-                </div>
-              
+    
             </div>
             <!--./row-->
         </section>      
         <!--End of Meet the Band-->
-        
+            
         <!--Artists-->
         <section>
-             <div class="row">
-                <div class="meet-headers">
-                    <h1>Artists</h1>
-                </div> 
+            <div class="row">
+                <h1 class="col-12 text-center mt-5">Artists</h1>
                 
-                <div class="artist-content col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    
-                        <img src="images/dj.jpg" class="artist-img" alt="Davy Jones" title="Davy Jones">
+                    <div class="col-md-6">
+                    <img src="images/dj.jpg" alt="Davy Jones" title="Davy Jones">
                 
-                        <div class="artist-bio">
+                        <div class="mt-2">
                         <h2>Davy Jones - Bass</h2>
                         <p>A multi-talented artist who has acted and published autobiographies. After having success on the stage early
                             on which included a Tony Award Nomination, Davy joined the band to become a Monkee.</p>
                         </div>
-                   
-                </div>
+                   </div>
+                    <div class="col-md-6">
+                        <img src="images/md.jpg" alt="Micky Dolenz" title="Micky Dolenz">
                 
-                <div class="artist-content col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    
-                        <img src="images/md.jpg" class="artist-img" alt="Micky Dolenz" title="Micky Dolenz">
-                
-                        <div class="artist-bio">
+                        <div class="mt-3">
                         <h2>Micky Dolenz - Drummer</h2>
                         <p>Singer, musician, actor, writer, producer, and director, Micky has a wealth of showbizz and performance
                             experience he brings to the band. Born and raised in LA, a life on stage was his natural calling card.</p>  
                         </div>
-                    
-                </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/mn.jpg" alt="Michael Nesmith" title="Michael Nesmith">
                 
-                <div class="artist-content col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    
-                        <img src="images/mn.jpg" class="artist-img" alt="Michael Nesmith" title="Michael Nesmith">
-                
-                        <div class="artist-bio">
+                       <div class="mt-3">
                         <h2>Michael Nesmith - Guitarist</h2>
                         <p>A true Texan, Michael was in the US Air Force before joing the Monkees. He has a passion for
                             folk music and is known for his creatively.</p>
                         </div>
-                  
-                </div>
-                
-                <div class="artist-content col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  
-                        <img src="images/pt.jpg" class="artist-img" alt="Peter Tork" title="Peter Tork">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/pt.jpg" alt="Peter Tork" title="Peter Tork">
                
-                        <div class="artist-bio">
+                        <div class="mt-3">
                         <h2>Peter Tork - Singer, Guitarist</h2>
                         <p>Since a early age Peter had an intrest in music and learnt to play serval instruments. Before the Monkees
-                            he was a serious musician in New York.</p>    
+                            he was a serious musician in New York.</p> 
                         </div>
-                  
-                </div>
-                 
+                    </div>
+               
             </div>
             <!--./row-->
         </section>        
-        <!--End of Artists-->
+        <!--End of Artists-->    
             
-        </div> 
-        <!--./container-->
+        </div>
+        <!--container-->    
     </div>
-    <!--./container-fluid-->
-    
-    
+    <!--./bg-image-->
+<!--End of Artist-->
+</body>   
     <!--Footer-->
     <footer class="footer-container">
         <div class="container">
             
-            <div class="copyright">
-                <a href="https://github.com/AnthonyNicklin" target="_blank">&copy;2019 Anthony Nicklin</a>
-            </div>
             <div class="soical-links">
                 
                 <a href="https://en-gb.facebook.com/TheMonkees/" target="_blank">
@@ -171,22 +153,19 @@
                 
             </div>
             
+              <div class="copyright">
+                <a href="https://github.com/AnthonyNicklin" target="_blank">&copy;2019 Anthony Nicklin</a>
+            </div>
+
         </div>
         <!--./container-->
-        
     </footer>
-    <!--End of footer-->
-        
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-    </script>
+    <!--End of footer-->    
     
-</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </html>
+    
+    
