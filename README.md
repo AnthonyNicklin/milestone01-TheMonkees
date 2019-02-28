@@ -1,18 +1,18 @@
 # The Monkees #
-## Frontend Web Development Project ##
+## Front-end Web Development Project ##
 
 
 ## Aim ##
 
 The aim of this project was to create and build a front-end only website that has 4-5 pages for the rock band [The Monkees](https://anthonynicklin.github.io/milestone01-TheMonkees/). 
-I was provided with content to use which included a video and audio tracks which they wanted fans to be able to play on their website. Other assests they provided where photos of 
+I was provided with content to use which included a video and audio tracks which they wanted fans to be able to play on their website. Other assets they provided where photos of 
 the band, album covers and individual band member photos. 
 
 ## UX ##
 
 Starting with a mobile first design approach to this project I started creating wireframes for mobile and small screens. I then moved onto creating mockups 
 for medium and larger screens. The design of the site is clean, simple but funky in keeping with the 60's style the band has. I kept to a simple color scheme 
-in keeping with the main background image that I chose to use. Having a clean cut desgin, I felt makes it easier for the fan to read and use the website.
+in keeping with the main background image that I chose to use. Having a clean cut design, I feel makes it easier for the fan to read and use the website.
 
 Below are user stories that were conducted in order to gain clear goals that needed to be achieved for this website.
 1. As a fan I wanted to listen to current and back catalogue tracks.
@@ -24,19 +24,19 @@ Below are user stories that were conducted in order to gain clear goals that nee
 6. As an event promoter I wanted a way in which I could contact the band for bookings.
 7. As an fan I wanted to be able to contact the band to book for my own event.
 8. As an event promoter I wanted to check out their soical media via links.
-9. As a fan I wanted links to their differnt soical media pages on different platforms.
+9. As a fan I wanted links to their differnt social media pages on different platforms.
 
 The navigation bar is responsive having break points for smaller, medium and large screens. At these breaks points a burgar menu appears top right, and when 
-clicked brings a drop down menu with the navigation links. The 'Home' link is displayed in the navigation bar when the drop down menu is collapsed in order 
-bring the fan back to the home page with just one click without having to toggle the drop down menu. 
+clicked brings a drop down menu with the navigation links. The bands logo continues to be displayed in the navigation bar when the navigation bar is collapsed  
+and provides a way back to the home page when clicked on without having to toggle the drop down menu. 
 
 The [Home page](https://anthonynicklin.github.io/milestone01-TheMonkees/) has a great picture of the band performing and has been put as the first image the visitor sees
-when visiting the website in order to attract the fan to attend one of the bands gigs. Under this image goes striaght to the [Live Dates](https://milestone-project-01-anthonynicklin.c9users.io/index.html#live-dates)
-section so the fan can easily find a ticket using the Find Ticket buttons next to each upcoming live date. The [Book Us](https://milestone-project-01-anthonynicklin.c9users.io/index.html#book-us) section
+when visiting the website in order to attract the fan to attend one of the bands gigs. Under the bands image is the [Live Dates](https://milestone-project-01-anthonynicklin.c9users.io/index.html#live-dates)
+section which provides a easily way to find tickets using the Find Ticket buttons next to each upcoming live date. The [Book Us](https://milestone-project-01-anthonynicklin.c9users.io/index.html#book-us) section
 provides fans or promoters with a way to contact the band in order to book them with a neatly laid out and easy to use form.
 
-As soon as the visitor hits the [Media](https://milestone-project-01-anthonynicklin.c9users.io/media.html) page a promation video hits them with of the band playing. This is again 
-used to encourage the fan to see the band play live. Underneath is a neat section of album tracks with cover images with controls to play a track from each one. Content is provided
+As soon as the visitor hits the [Media](https://milestone-project-01-anthonynicklin.c9users.io/media.html) page a promation video hits them of the band playing. This is
+used to encourage the fan to see the band play live. Underneath is a neat section of album tracks with cover images and controls to play a track from each one. Content is provided
 next to each album to give the visitor a bit of intrest about that album the band is promoting. 
 
 [Meet the Band](https://milestone-project-01-anthonynicklin.c9users.io/meet-the-band.html) uses a simple layout so the fan can easly read information about the band and then about
@@ -66,10 +66,8 @@ Below are a list of the programming lanuagues, technologies and frameworks used 
 * CSS3
 * Markdown
     * Used to write the README.md file.
-* JavaScript
-    * Used to create the responsive navigation bar.
 * [Bootstrap3.3.7 framework](https://getbootstrap.com/)
-    * The website uses boostrap framework for it's grid system, pagelayout, button styling and navigation bar.
+    * The website uses boostrap framework for it's grid system, pagelayout, button styling and responsive navigation bar.
 * [Cloud9IDE](https://aws.amazon.com/cloud9/)
     * Cloud9 was the IDE used to write the code for this website.
 * [MarvelApp](https://marvelapp.com)
@@ -159,5 +157,3 @@ Images of band, Monkees logo and artists where provided by Code Institude.
 ### Media ###
 Audio tracks and video was provided by Code Institude.
 
-### Code ###
-Collapsible responsive navigation bar Code copied and customised from [w3schools.com](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
