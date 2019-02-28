@@ -50,13 +50,14 @@ more appealing across all screens sizes and devices giving a better user experie
 
 Features on this website are:
 
-* On every desktop/large screen the logo of the band is presented and there is also a link to the home page.
+* On every screen size the logo of the band is presented and is also a link to the [home page](https://anthonynicklin.github.io/milestone01-TheMonkees/)
 * The links in the navigation when hovered over turn black with an underline to indicate which link the fans cursor is over.
 * When hovering over any links the cursor changes from a pointer to a hand.
 * On every page in the footer there are links to the band's soical media pages to the respected soical media platforms.
+* When hovering over a social link, the icon changes colour to that social media platforms colour.
 * For each [live date](https://anthonynicklin.github.io/milestone01-TheMonkees/#live-dates) there is a 'find ticket' button that takes them the respected page on ticketmaster.com.
 * The [booking form](https://anthonynicklin.github.io/milestone01-TheMonkees/#book-us) lets the fan input their information and gives an error message if the data is not in the correct format or missing.
-* Video and audio on the [media](https://anthonynicklin.github.io/milestone01-TheMonkees/media.html) page have contorls that the fan can use to fully control the video and audio.
+* Video and audio on the [media](https://anthonynicklin.github.io/milestone01-TheMonkees/media.html) page have controls that the fan can use to fully control the video and audio.
 
 ## Technologies Used ##
 
@@ -66,7 +67,7 @@ Below are a list of the programming lanuagues, technologies and frameworks used 
 * CSS3
 * Markdown
     * Used to write the README.md file.
-* [Bootstrap3.3.7 framework](https://getbootstrap.com/)
+* [Bootstrap4.3.1 framework](https://getbootstrap.com/)
     * The website uses boostrap framework for it's grid system, pagelayout, button styling and responsive navigation bar.
 * [Cloud9IDE](https://aws.amazon.com/cloud9/)
     * Cloud9 was the IDE used to write the code for this website.
@@ -108,16 +109,16 @@ Platforms:
     * Mircosoft Edge
     * IE 11
 
-Manual testing was conducted to ensure the user story objectives where achieved
+Manual testing was conducted to ensure the user story objectives where achieved.
 1. Audio
     * Click on "Media" page
-    * Click on audio control bar to hear and contorl music
+    * Click on audio control bar to hear and control music
 2. Book tickets
     * Scroll down on home page and also use the navigation link to "Live Dates" section
     * Click on "Find Ticket" in order to book ticket for that event. This opens up a new tab in browser and directs you to the booking page for that gig
 3. View promotional footage
     * Click on "Media" page
-    * Click on video contorl bar to view and contorl footage
+    * Click on video control bar to view and control footage
 4. Book the band
     * Scroll down and use navigation link to "Book Us" section
     * Try to submit the empty form and verify that an error message about the required fields appears
@@ -125,20 +126,21 @@ Manual testing was conducted to ensure the user story objectives where achieved
     * Try to submit the form with an invalid telephone number and verify that a relevant error message appears
     * Try to submit the form with all inputs valid 
 5. Social Media links
+    * Hover over each social media icon. Each icon should change colour to the respected social media platforms colour
     * In the footer of each page click on each social media icon to be redirected to the respected site and open in a new tab in the browser
 
 I reached out to fellow students on Slack to view my website and test. A lead mentor found a major problem with the responsive
 aspect of the website. Even tho the website looked correct on small devices, when adjusting a web browser on a desktop below 400px there was huge
 overflow. This pointed out I had not applied the mobile first approach correclty. I did more research on mobile first design and implementation and went 
-back over notes and videos. To correct the fault I had to rewrite 60% of my style.css. 
+back over notes and lessons. To correct the fault I had to rewrite 60% of my style.css. 
 
 
-## Depolyment ##
+## Deployment ##
 
 The website was created using Cloud9 IDE using Ubuntu with BASH. Git was used for version control and pushed to a repository hosted on 
-GitHub.com. 
+[GITHUB](https://github.com).
 
-The website is delopyed using GitHub pages [The Monkees](https://anthonynicklin.github.io/milestone01-TheMonkees/)
+The website is deployed using GitHub pages [The Monkees](https://anthonynicklin.github.io/milestone01-TheMonkees/)
 
 ## Credits ##
 
