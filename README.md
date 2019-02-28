@@ -1,5 +1,5 @@
 # The Monkees #
-## Frontend Webdevelopment Project ##
+## Frontend Web Development Project ##
 
 
 ## Aim ##
