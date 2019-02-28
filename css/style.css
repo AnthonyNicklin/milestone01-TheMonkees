@@ -70,7 +70,6 @@ h1, h2, h3, h4, p {
 }
 /* Button style for Find Tickets and also Submit in book-us section */
 .btn {
-    border-radius: 15px;
     font-size: 12px;
 } 
 /*---------------------------Book Us*/
