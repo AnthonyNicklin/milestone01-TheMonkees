@@ -51,7 +51,8 @@ more appealing across all screens sizes and devices giving a better user experie
 Features on this website are:
 
 * On every screen size the logo of the band is presented and is also a link to the [home page](https://anthonynicklin.github.io/milestone01-TheMonkees/)
-* The links in the navigation when hovered over turn black with an underline to indicate which link the fans cursor is over.
+* The links in the navigation when hovered over turn grey to indicate which link the fans cursor is over.
+* Navigation links are active meaning they stay black if the fan is on that page.
 * When hovering over any links the cursor changes from a pointer to a hand.
 * On every page in the footer there are links to the band's soical media pages to the respected soical media platforms.
 * When hovering over a social link, the icon changes colour to that social media platforms colour.
