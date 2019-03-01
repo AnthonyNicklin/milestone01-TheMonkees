@@ -11,8 +11,8 @@ the band, album covers and individual band member photos.
 ## UX ##
 
 Starting with a mobile first design approach to this project I started creating wireframes for mobile and small screens. I then moved onto creating mockups 
-for medium and larger screens. The design of the site is clean, simple but funky in keeping with the 60's style the band has. I kept to a simple color scheme 
-in keeping with the main background image that I chose to use. Having a clean cut design, I feel makes it easier for the fan to read and use the website.
+for medium and larger screens. The design of the site is clean, simple but funky in keeping with the 60's style the band has. I kept to a simple color scheme matching
+the main background image that I chose to use. Having a clean cut design, I feel makes it easier for the fan to read and use the website.
 
 Below are user stories that were conducted in order to gain clear goals that needed to be achieved for this website.
 1. As a fan I wanted to listen to current and back catalogue tracks.
@@ -23,26 +23,26 @@ Below are user stories that were conducted in order to gain clear goals that nee
 5. As an event promoter I wanted to see a promotional video of the band.
 6. As an event promoter I wanted a way in which I could contact the band for bookings.
 7. As an fan I wanted to be able to contact the band to book for my own event.
-8. As an event promoter I wanted to check out their soical media via links.
+8. As an event promoter I wanted to check out their social media via links.
 9. As a fan I wanted links to their differnt social media pages on different platforms.
 
-The navigation bar is responsive having break points for smaller, medium and large screens. At these breaks points a burgar menu appears top right, and when 
-clicked brings a drop down menu with the navigation links. The bands logo continues to be displayed in the navigation bar when the navigation bar is collapsed  
-and provides a way back to the home page when clicked on without having to toggle the drop down menu. 
+The navigation bar is responsive having break points for smaller, medium and large screens. The navigation links disapear on screen width's below 992 pixals and a burger menu icon appears 
+top right. When the burger icon is clicked it brings a drop down menu with the navigation links in displayed vertically down the left-hand side. The bands logo continues to be displayed in the 
+navigation bar when the navigation bar is collapsed and provides a way back to the home page when clicked on without having to toggle the drop down menu. 
 
-The [Home page](https://anthonynicklin.github.io/milestone01-TheMonkees/) has a great picture of the band performing and has been put as the first image the visitor sees
-when visiting the website in order to attract the fan to attend one of the bands gigs. Under the bands image is the [Live Dates](https://milestone-project-01-anthonynicklin.c9users.io/index.html#live-dates)
-section which provides a easily way to find tickets using the Find Ticket buttons next to each upcoming live date. The [Book Us](https://milestone-project-01-anthonynicklin.c9users.io/index.html#book-us) section
-provides fans or promoters with a way to contact the band in order to book them with a neatly laid out and easy to use form.
+The [Home page](https://anthonynicklin.github.io/milestone01-TheMonkees/) has a great picture of the band performing and has been put as the first image visitors see in order to attract the fan 
+to attend one of the bands gigs. Under the bands image is the [Live Dates](https://anthonynicklin.github.io/milestone01-TheMonkees/index.html#live-dates) section which provides a easily way to 
+find tickets using the Find Ticket buttons next to each upcoming live date. The [Book Us](https://anthonynicklin.github.io/milestone01-TheMonkees/index.html#book-us) sectionprovides fans or 
+promoters with a way to contact the band in order to book them with a neatly laid out and easy to use form.
 
-As soon as the visitor hits the [Media](https://milestone-project-01-anthonynicklin.c9users.io/media.html) page a promation video hits them of the band playing. This is
+As soon as the visitor hits the [Media](https://anthonynicklin.github.io/milestone01-TheMonkees/media.html) page a promation video hits them of the band playing. This is
 used to encourage the fan to see the band play live. Underneath is a neat section of album tracks with cover images and controls to play a track from each one. Content is provided
 next to each album to give the visitor a bit of intrest about that album the band is promoting. 
 
-[Meet the Band](https://milestone-project-01-anthonynicklin.c9users.io/meet-the-band.html) uses a simple layout so the fan can easly read information about the band and then about
+[Meet the Band](https://anthonynicklin.github.io/milestone01-TheMonkees/meet-the-band.html) uses a simple layout so the fan can easly read information about the band and then about
 each individual member. 
 
-During the process of developying the site I found that the layout on the [Media](https://milestone-project-01-anthonynicklin.c9users.io/media.html) and [Meet the Band](https://milestone-project-01-anthonynicklin.c9users.io/meet-the-band.html) 
+During the process of developying the site I found that the layout on the [Media](https://anthonynicklin.github.io/milestone01-TheMonkees/media.html) and [Meet the Band](https://anthonynicklin.github.io/milestone01-TheMonkees/meet-the-band.html) 
 pages did not look great across all devices. I decided to change the layout and reposition images and content but, still keeping the design theme consistent. These pages now look much 
 more appealing across all screens sizes and devices giving a better user experience than sicking with the orignal layout in the orignal wireframes.
 
@@ -56,8 +56,8 @@ Features on this website are:
 * When hovering over any links the cursor changes from a pointer to a hand.
 * On every page in the footer there are links to the band's soical media pages to the respected soical media platforms.
 * When hovering over a social link, the icon changes colour to that social media platforms colour.
-* For each [live date](https://anthonynicklin.github.io/milestone01-TheMonkees/#live-dates) there is a 'find ticket' button that takes them the respected page on ticketmaster.com.
-* The [booking form](https://anthonynicklin.github.io/milestone01-TheMonkees/#book-us) lets the fan input their information and gives an error message if the data is not in the correct format or missing.
+* For each [live date](https://anthonynicklin.github.io/milestone01-TheMonkees/index.html#live-dates) there is a 'find ticket' button that takes them the respected page on ticketmaster.com.
+* The [booking form](https://anthonynicklin.github.io/milestone01-TheMonkees/index.html#book-us) lets the fan input their information and gives an error message if the data is not in the correct format or missing.
 * Video and audio on the [media](https://anthonynicklin.github.io/milestone01-TheMonkees/media.html) page have controls that the fan can use to fully control the video and audio.
 
 ## Technologies Used ##
