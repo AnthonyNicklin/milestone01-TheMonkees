@@ -11,14 +11,14 @@ the band, album covers and individual band member photos.
 ## UX ##
 
 Starting with a mobile first design approach to this project I started creating wireframes for mobile and small screens. I then moved onto creating mockups 
-for medium and larger screens. The design of the site is clean, simple but funky in keeping with the 60's style the band has. I kept to a simple color scheme matching
+for medium and larger screens. The design of the site is clean, simple but funky in keeping with the 60's style the band has. I kept to a simple colour scheme matching
 the main background image that I chose to use. Having a clean cut design, I feel makes it easier for the fan to read and use the website.
 
 Below are user stories that were conducted in order to gain clear goals that needed to be achieved for this website.
 1. As a fan I wanted to listen to current and back catalogue tracks.
 2. As a fan I wanted to see where and when the band will be preforming.
 2. As a fan I wanted to be able to find and book tickets to the bands next gigs.
-3. As a fan I wanted to read intresting facts about the band and about each artist.
+3. As a fan I wanted to read interesting facts about the band and about each artist.
 4. As an event promoter I wanted to hear and preview their tracks.
 5. As an event promoter I wanted to see a promotional video of the band.
 6. As an event promoter I wanted a way in which I could contact the band for bookings.
@@ -37,22 +37,22 @@ promoters with a way to contact the band in order to book them with a neatly lai
 
 A promotional video is displayed at the very begining of the [Media](https://anthonynicklin.github.io/milestone01-TheMonkees/media.html) page. This is 
 to encourage the fan to see the band play live. Underneath is a neat section of album tracks with album cover images with controls to play a track from each one. Content is provided
-next to each album to give the visitor a bit of intrest about that album the band is promoting. 
+next to each album to give the visitor a bit of interest about that album the band is promoting. 
 
 [Meet the Band](https://anthonynicklin.github.io/milestone01-TheMonkees/meet-the-band.html) uses a simple layout so the fan can easly read information about the band and then about
 each individual member. 
 
 During the process of developying the site I found that the layout on the [Media](https://anthonynicklin.github.io/milestone01-TheMonkees/media.html) and [Meet the Band](https://anthonynicklin.github.io/milestone01-TheMonkees/meet-the-band.html) 
 pages did not look great across all devices. I decided to change the layout and reposition images and content but, still keeping the design theme consistent. These pages now look much 
-more appealing across all screens sizes and devices giving a better user experience than sicking with the orignal layout in the wireframes.
+more appealing across all screen sizes and devices giving a better user experience than sicking with the orignal layout in the wireframes.
 
 ## Features ##
 
 Features on this website are:
 
-* On every screen size the logo of the band is presented and is also a link to the [home page](https://anthonynicklin.github.io/milestone01-TheMonkees/)
+* On every screen size the logo of the band is presented and is also a link to the [home page](https://anthonynicklin.github.io/milestone01-TheMonkees/).
 * The links in the navigation when hovered over turn grey to indicate which link the fans cursor is over.
-* Navigation links are active meaning they stay black if the fan is on that page.
+* Navigation links are active meaning the link will stay black when the fan is on that page.
 * When hovering over any links the cursor changes from a pointer to a hand.
 * On every page in the footer there are links to the band's social media pages to the respected social media platforms.
 * When hovering over a social media icon, the icon changes colour to that social media platforms colour.
@@ -62,7 +62,7 @@ Features on this website are:
 
 ## Technologies Used ##
 
-Below are a list of the programming lanuagues, technologies and frameworks used for this website.
+Below are a list of the programming languages, technologies and frameworks used for this website.
 
 * HTML5
 * CSS3
@@ -75,9 +75,9 @@ Below are a list of the programming lanuagues, technologies and frameworks used 
 * [MarvelApp](https://marvelapp.com)
     * This was used to design and create the wireframes for this project.
 * [Google Fonts](https://fonts.google.com/)
-* GIT
+* Git
     * Version control
-* [GITHUB](https://github.com)
+* [GitHub](https://github.com)
 * [Font Awesome](https://fontawesome.com/)
     * For social media icons and Glyphicons
 * Google Chrome Developer Tools
@@ -86,8 +86,8 @@ Below are a list of the programming lanuagues, technologies and frameworks used 
 
 ## Testing ##
 
-I conducted testing across different platforms and web browsers in order to make sure the website works correctly and
-looks great across each one. I also asked friends and family to test across their own devices and to give me honest opinons and feedback.
+I conducted testing across different platforms and web browsers in order to make sure the website worked correctly, and
+looked great across each one. I also asked friends and family to test across their own devices and to give me honest opinons and feedback.
 
 Platforms:
 * Samsung Galaxy 8
@@ -132,15 +132,15 @@ Manual testing was conducted to ensure the user story objectives where achieved.
     * In the footer of each page click on each social media icon to be redirected to the respected site and open in a new tab in the browser.
 
 I reached out to fellow students on Slack to view my website and test. A lead mentor found a major problem with the responsive
-aspect of the website. Even tho the website looked correct on small devices, when adjusting a web browser on a desktop below 400 pixals there was huge
+aspect of the website. Even though the website looked correct on small devices, when adjusting a web browser on a desktop below 400 pixals there was huge
 overflow. This pointed out I had not applied the mobile first approach correclty. I did more research on mobile first design and implementation and went 
-back over notes and lessons. To correct the fault I had to rewrite 60% of my style.css. 
+back over notes and lessons. To correct the fault I had to rewrite 60% of my style.css file. 
 
 
 ## Deployment ##
 
 The website was created using Cloud9 IDE using Ubuntu with BASH. Git was used for version control and pushed to a repository hosted on 
-[GITHUB](https://github.com).
+[GitHub](https://github.com).
 
 The website is deployed using GitHub pages [The Monkees](https://anthonynicklin.github.io/milestone01-TheMonkees/)
 
@@ -155,7 +155,7 @@ Information about the band was taked from a number of sources listed below:
 Please note some content is made up as I did not want to write the same information that other students would come across and possibly write up.
 
 ### Images ###
-Main background image used was sourced under free commercial license from [Pixaby](https://pixabay.com/en/red-abstract-spiral-2829985/)
+Main background image used was sourced under free commercial license from [Pixaby](https://pixabay.com/en/red-abstract-spiral-2829985/).
 Images of band, Monkees logo and artists where provided by Code Institude.
 
 ### Media ###
